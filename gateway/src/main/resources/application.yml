@@ -6,7 +6,7 @@ server:
 
 
 keycloak-client:
-  server-url: http://localhost:9090
+  server-url: https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io
   realm: master
 
 spring:
