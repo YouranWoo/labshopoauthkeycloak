@@ -6,7 +6,7 @@ server:
 
 
 keycloak-client:
-  server-url: https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io
+  server-url: https://9090-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io
   realm: master
 
 spring:
@@ -49,9 +49,9 @@ spring:
             user-name-attribute: preferred_username
         registration:
           keycloak:
-            client-id: "12stmall"
+            client-id: 12stmall
             client-secret: bg08vDopnMPZKYcRnPr9UEDAfEGXMSBN
-            redirect-uri: "https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io/login/oauth2/code/12stmall"
+            redirect-uri: https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io/login/oauth2/code/12stmall
             authorization-grant-type: authorization_code
             scope: openid
       resourceserver:
@@ -94,9 +94,9 @@ spring:
             user-name-attribute: preferred_username
         registration:
           keycloak:
-            client-id: "<client-id>"
-            client-secret: 
-            redirect-uri: "{baseUrl}/login/oauth2/code/keycloak"
+            client-id: 12stmall
+            client-secret: bg08vDopnMPZKYcRnPr9UEDAfEGXMSBN
+            redirect-uri: https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io/login/oauth2/code/12stmall
             authorization-grant-type: authorization_code
             scope: openid
       resourceserver:
