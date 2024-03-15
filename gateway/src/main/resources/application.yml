@@ -1,4 +1,5 @@
-server:
+
+server:
   port: 8088
 
 ---
@@ -48,9 +49,9 @@ spring:
             user-name-attribute: preferred_username
         registration:
           keycloak:
-            client-id: "<client-id>"
-            client-secret: 
-            redirect-uri: "gateway-path/login/oauth2/code/client-name"
+            client-id: "12stmall"
+            client-secret: bg08vDopnMPZKYcRnPr9UEDAfEGXMSBN
+            redirect-uri: "https://8088-youranwoo-labshopoauthk-f249lnhjgmw.ws-us110.gitpod.io/login/oauth2/code/12stmall"
             authorization-grant-type: authorization_code
             scope: openid
       resourceserver:
